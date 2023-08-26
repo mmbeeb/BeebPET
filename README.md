@@ -17,3 +17,5 @@ DSPLY
 I/O and screen handling routines.
 
 P15 is the latest version.
+
+Character set ROM c/o the VICE emulator.
