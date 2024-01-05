@@ -2,6 +2,8 @@
 
 PET like environment for the BBC Microcomputer.
 
+There are two version, one using normal RAM, and one which uses 16KB of Sideways RAM.
+
 Basic/Editor/Kernal
 ===================
 
@@ -14,8 +16,8 @@ Assembled using BeebASM Version 1.10.
 DSPLY
 =====
 
-I/O and screen handling routines.
+I/O, screen and sound handling routines, loaded at $0900.
 
-P15 is the latest version.
+PCODE.TXT is a BBC BASIC program which creates the C.DSPLY (Normal RAM) and S.DSPLY (Sideways RAM) machine code files.
 
-Character set ROM c/o the VICE emulator.
+D.CHARS is the original character set ROM c/o the VICE emulator.  CCODE.TXT splits and reorders this into the D.CHARS2 and D.CHARS3 files.
