@@ -18,6 +18,16 @@ DSPLY
 
 I/O, screen and sound handling routines, loaded at $0900.
 
-PCODE.TXT is a BBC BASIC program which creates the C.DSPLY (Normal RAM) and S.DSPLY (Sideways RAM) machine code files.
+DEMO DISCS
+==========
 
-D.CHARS is the original character set ROM c/o the VICE emulator.  CCODE.TXT splits and reorders this into the D.CHARS2 and D.CHARS3 files.
+There are two demo discs, namely BeebPET.ssd and SWBeebPet.ssd, where the latter uses the Sideways RAM version which allows larger BASIC programs.
+
+There are a number of games in the G directory, e.g. try LOAD "G.DEMO
+
+KEYS
+====
+
+F0 and F1 choose the graphic characters subset.
+F6 controls sound volume.
+
