@@ -31,3 +31,5 @@ KEYS
 F0 and F1 choose the graphic characters subset.
 F6 controls sound volume.
 
+BeepPET.pdf contains keyboard layouts.
+
